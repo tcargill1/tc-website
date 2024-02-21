@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-image: url(blank_board.webp);
+    background-size: cover;
+    position: relative;
+    top: 50px;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+#tictactoe {
+    position: relative;
+    margin: 0 auto;
+    max-width: 200px;
+    left: 20px;
+    top: 25px;
+}
+
+p {
+    position: relative;
+    bottom: -50px;
+}
+
+#reset {
+    position: relative;
+    top: 50px;
+}
+
+#play_again {
+    position: relative;
+    top: 50px;
+}
+
+.topnav {
+    position: absolute;
+    top: -55px;
+    width: 100%;
+    background-color: #333;
+    list-style-type: none;
+}
+
+.topnav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

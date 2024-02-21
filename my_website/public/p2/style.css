@@ -1,0 +1,94 @@
+h1 {
+    background-color: lightblue;
+    border: 2px solid lightblue;
+}
+
+img {
+    width: 250px;
+}
+
+div {
+    border: 1px;
+    position:relative;
+    left: 250px;
+}
+
+body {
+    position: relative;
+    top: 50px;
+
+}
+
+div h3 {
+    background-color:  white;
+ }
+
+ h3 {
+    background-color: lightblue;
+}
+
+ section {
+    text-align: center;
+}
+
+em {
+    text-align: center;
+}
+
+.education {
+    position:absolute;
+    left:750px;
+    top:60px;
+}
+
+.education img {
+    width: 350px;
+}
+
+.education h3 {
+    background-color: white;
+}
+
+li{
+    direction:ltr;
+}
+
+ul{
+    list-style-position:inside;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+.topnav {
+    position: absolute;
+    top: -55px;
+    width: 100%;
+    background-color: #333;
+    list-style-type: none;
+}
+
+.topnav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

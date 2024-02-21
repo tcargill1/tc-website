@@ -1,0 +1,96 @@
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+h2 {
+    position: relative;
+    top: 25px;
+}
+
+img {
+    float: right;
+    margin-right: 100px;
+    width: 25%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    position: relative;
+    top: 100px;
+}
+
+.project-1 img {
+    float: right;
+    margin-top: -45px;
+}
+
+.project-1 button {
+    position: relative;
+    right: -1185px;
+    bottom: -175px;
+}
+
+.project-2 button {
+    position: relative;
+    right: -1185px;
+    bottom: -225px;
+}
+
+.project-3 button {
+    position: relative;
+    right: -1185px;
+    bottom: -225px;
+}
+
+.project-4 button {
+    position: relative;
+    right: -1185px;
+    bottom: -200px;
+}
+
+.project-2 img {
+    position: relative;
+    right: -480px;
+}
+
+.project-3 img {
+    position: relative;
+    right: -960px;
+    bottom: 20px;
+}
+
+.project-4 img {
+    position: relative;
+    right: 10px;
+    bottom: 175px;
+}
+
+.project-2 {
+    position: relative;
+    top: 300px;
+}
+
+.project-3 {
+    position: relative;
+    top: 600px;
+}
+
+.project-4 {
+    position: relative;
+    top: 900px;
+}
+
+.project-4 p {
+    white-space: nowrap;
+}
+
+.project-5 {
+    position: relative;
+    top: 1200px;
+    white-space: nowrap;
+}
