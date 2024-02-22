@@ -5,7 +5,7 @@ const path = require('path');
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
 
-const port = process.env.PORT || 8080; // Set the port to 8080
+const port = process.env.PORT || 80; // Set the port to 80
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
