@@ -25,49 +25,51 @@ section {
 }
 
 .project-1 img {
-    float: right;
-    margin-top: -45px;
+    position: relative;
+    right: 515px;
+    bottom: 25px;
 }
 
 .project-1 button {
     position: relative;
-    right: -1185px;
+    right: -620px;
     bottom: -175px;
 }
 
 .project-2 button {
     position: relative;
-    right: -1185px;
+    right: -620px;
     bottom: -225px;
 }
 
 .project-3 button {
     position: relative;
-    right: -1185px;
-    bottom: -225px;
+    right: -624px;
+    bottom: -25px;
 }
 
 .project-4 button {
     position: relative;
-    right: -1185px;
-    bottom: -200px;
+    right: -625px;
+    bottom: -75px;
 }
 
 .project-2 img {
     position: relative;
-    right: -480px;
+    right: 50px;
+    bottom: -15px;
 }
 
 .project-3 img {
     position: relative;
-    right: -960px;
-    bottom: 20px;
+    right: -420px;
+    bottom: 5px;
 }
 
 .project-4 img {
     position: relative;
-    right: 10px;
-    bottom: 175px;
+    right: 35%;
+    bottom: 125px;
 }
 
 .project-2 {
@@ -85,12 +87,43 @@ section {
     top: 900px;
 }
 
-.project-4 p {
+.project-1 p { 
+    position: absolute;
+    white-space: nowarp;
+    left: 0%;
+    bottom: 25px;
+}
+
+.project-2 p {
+    position: absolute;
     white-space: nowrap;
+    left: 10%;
+    bottom: 5px;
+}
+
+.project-3 p {
+    position: absolute;
+    white-space: nowrap;
+    left: 16%;
+    bottom: 250px;
+}
+
+.project-4 p {
+    position: absolute;
+    white-space: nowrap;
+    bottom: 175px;
+    left: 15%;
 }
 
 .project-5 {
     position: relative;
     top: 1200px;
     white-space: nowrap;
+}
+
+.project-5 p {
+    position: absolute;
+    white-space: nowrap;
+    bottom: 100px;
+    left: 23%;
 }
