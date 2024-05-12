@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const hostname = '127.0.0.1'; // Listen on all available network interfaces
+const hostname = '0.0.0.0'; // Listen on all available network interfaces
 
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
