@@ -1,14 +1,14 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const hostname = '174.48.224.194';
+const hostname = '127.0.0.1';
 
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
 
 const port = process.env.PORT || 3000; 
 app.listen(port, hostname, () => {
-    console.log(`Server is running on http://0.0.0.0:${port}`);
+    console.log(`Server is running on http://${hostname}:${port}`);
 });
 
 app.get('/', (req, res) => {
