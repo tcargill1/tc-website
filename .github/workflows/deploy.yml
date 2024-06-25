@@ -28,9 +28,9 @@ jobs:
         script: |
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
-          cd /home/ubuntu/tc-website
+          cd tc-website
           git stash
-          git pull origin feature/github-action
+          git pull origin main
           npm install
           pm2 restart nodejs-ssl-server
               
