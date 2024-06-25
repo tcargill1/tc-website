@@ -28,7 +28,7 @@ jobs:
         script: |
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
-          cd /home/ubuntu/nodejs-ssl-server
+          cd /home/ubuntu/tc-website
           git stash
           git pull origin feature/github-action
           npm install
