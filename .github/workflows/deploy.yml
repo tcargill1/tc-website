@@ -28,11 +28,11 @@ jobs:
         script: |
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
-          cd tc-website
+          cd tc-website/my_website
           git stash
           git pull origin main
           npm install
-          pm2 restart nodejs-ssl-server
+          pm2 restart tc-website
               
     - name: Remove Github Actions IP from security group
       run: |
