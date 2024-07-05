@@ -128,83 +128,115 @@ section {
     left: 23%;
 }*/
 
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body styling */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-    background-color: #f8f9fa;
+/* Navbar adjustments */
+.navbar-nav .nav-item {
+    margin-right: 20px;
 }
 
 /* Header styling */
-h1, h2 {
-    margin-bottom: 20px;
+h2 {
+    margin-top: 25px;
     text-align: center;
 }
 
-/* Navbar */
-.navbar {
-    margin-bottom: 20px;
+/* Image styling */
+img {
+    width: 100%;
+    height: auto;
 }
 
-/* Sections styling */
+/* Link styling */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Section styling */
 section {
-    margin-bottom: 40px;
+    margin-top: 20px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Paragraph styling */
+/* Flexbox layout for sections */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section img {
+    width: 90%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
 section p {
     margin-bottom: 15px;
+    text-align: center;
 }
 
-/* Images styling */
-section img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-/* Buttons styling */
-button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
+section button {
     margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 
-button a {
-    color: black;
-    text-decoration: none;
+/* Project specific styling */
+.project-1 img,
+.project-2 img,
+.project-3 img,
+.project-4 img {
+    max-width: 500px;
 }
 
-button a:hover {
-    text-decoration: underline;
+.project-1 button,
+.project-2 button,
+.project-3 button,
+.project-4 button {
+    width: auto;
 }
 
-/* Responsive Design */
+/* Responsive adjustments */
 @media (min-width: 768px) {
     section {
-        display: flex;
-        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
     }
+
     section img {
-        width: 50%;
-        margin-right: 20px;
+        width: 40%;
+        margin: 0 20px 0 0;
     }
-    section p, section button {
+
+    section p {
         width: 50%;
+        text-align: left;
+    }
+
+    section button {
+        align-self: flex-start;
+    }
+}
+
+/* Project specific margins for larger screens */
+@media (min-width: 1024px) {
+    .project-2 {
+        margin-top: 40px;
+    }
+
+    .project-3 {
+        margin-top: 60px;
+    }
+
+    .project-4 {
+        margin-top: 80px;
+    }
+
+    .project-5 {
+        margin-top: 100px;
     }
 }
