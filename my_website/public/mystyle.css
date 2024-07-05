@@ -218,176 +218,110 @@ section {
 
 @media (max-width: 768px) {
     img {
-        width: 50%;
+        width: 100%;
         margin-right: 0;
+        float: none;
     }
 
-    .project-1 img {
-        right: 200px;
-        bottom: 15px;
+    .project-1 img, .project-2 img, .project-3 img, .project-4 img {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
     }
 
-    .project-1 button {
-        right: -300px;
-        bottom: -100px;
-    }
-
-    .project-2 button {
-        right: -300px;
-        bottom: -150px;
-    }
-
-    .project-3 button {
-        right: -304px;
-        bottom: -10px;
-    }
-
-    .project-4 button {
-        right: -305px;
-        bottom: -25px;
-    }
-
-    .project-2 img {
-        right: 20px;
-        bottom: -5px;
-    }
-
-    .project-3 img {
-        right: -220px;
-        bottom: 3px;
-    }
-
-    .project-4 img {
-        right: 20%;
-        bottom: 75px;
+    .project-1 button, .project-2 button, .project-3 button, .project-4 button {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin: 20px auto;
+        display: block;
     }
 
     .project-2 {
-        top: 200px;
+        top: 0;
     }
 
     .project-3 {
-        top: 400px;
+        top: 0;
     }
 
     .project-4 {
-        top: 600px;
+        top: 0;
     }
 
-    .project-1 p {
-        left: 1%;
-        bottom: 15px;
-    }
-
-    .project-2 p {
-        left: 5%;
-        bottom: 3px;
-    }
-
-    .project-3 p {
-        left: 10%;
-        bottom: 150px;
-    }
-
-    .project-4 p {
-        bottom: 100px;
-        left: 10%;
+    .project-1 p, .project-2 p, .project-3 p, .project-4 p {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin: 10px auto;
+        white-space: normal;
     }
 
     .project-5 {
-        top: 800px;
+        top: 0;
     }
 
     .project-5 p {
-        bottom: 50px;
-        left: 15%;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin: 10px auto;
+        white-space: normal;
     }
 }
 
 @media (max-width: 480px) {
     img {
-        width: 75%;
+        width: 100%;
         margin-right: 0;
+        float: none;
     }
 
-    .project-1 img {
-        right: 100px;
-        bottom: 10px;
+    .project-1 img, .project-2 img, .project-3 img, .project-4 img {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
     }
 
-    .project-1 button {
-        right: -150px;
-        bottom: -75px;
-    }
-
-    .project-2 button {
-        right: -150px;
-        bottom: -100px;
-    }
-
-    .project-3 button {
-        right: -154px;
-        bottom: -5px;
-    }
-
-    .project-4 button {
-        right: -155px;
-        bottom: -15px;
-    }
-
-    .project-2 img {
-        right: 10px;
-        bottom: -2px;
-    }
-
-    .project-3 img {
-        right: -120px;
-        bottom: 2px;
-    }
-
-    .project-4 img {
-        right: 10%;
-        bottom: 50px;
+    .project-1 button, .project-2 button, .project-3 button, .project-4 button {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin: 20px auto;
+        display: block;
     }
 
     .project-2 {
-        top: 150px;
+        top: 0;
     }
 
     .project-3 {
-        top: 300px;
+        top: 0;
     }
 
     .project-4 {
-        top: 450px;
+        top: 0;
     }
 
-    .project-1 p {
-        left: 0.5%;
-        bottom: 10px;
-    }
-
-    .project-2 p {
-        left: 3%;
-        bottom: 2px;
-    }
-
-    .project-3 p {
-        left: 8%;
-        bottom: 100px;
-    }
-
-    .project-4 p {
-        bottom: 75px;
-        left: 8%;
+    .project-1 p, .project-2 p, .project-3 p, .project-4 p {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin: 10px auto;
+        white-space: normal;
     }
 
     .project-5 {
-        top: 600px;
+        top: 0;
     }
 
     .project-5 p {
-        bottom: 25px;
-        left: 10%;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin: 10px auto;
+        white-space: normal;
     }
 }
