@@ -128,126 +128,83 @@ section {
     left: 23%;
 }*/
 
-/* General styles */
-.navbar-nav .nav-item {
-    margin-right: 2%;
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2 {
-    margin-top: 2%;
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f8f9fa;
 }
 
-img {
-    float: right;
-    margin-right: 10%;
-    width: 25%;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-section {
-    margin-top: 10%;
-}
-
-.project-1 img,
-.project-2 img,
-.project-3 img,
-.project-4 img {
-    display: block;
-    margin: 0 auto;
-    width: 50%;
-}
-
-.project-1 button,
-.project-2 button,
-.project-3 button,
-.project-4 button {
-    display: block;
-    margin: 20px auto;
-}
-
-.project-1 p,
-.project-2 p,
-.project-3 p,
-.project-4 p,
-.project-5 p {
+/* Header styling */
+h1, h2 {
+    margin-bottom: 20px;
     text-align: center;
 }
 
-/* Responsive styles */
-@media (max-width: 1200px) {
-    img {
-        width: 35%;
-        margin-right: 5%;
-    }
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
 
-    .project-1 img,
-    .project-2 img,
-    .project-3 img,
-    .project-4 img {
+/* Sections styling */
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Paragraph styling */
+section p {
+    margin-bottom: 15px;
+}
+
+/* Images styling */
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Buttons styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    section {
+        display: flex;
+        align-items: center;
+    }
+    section img {
         width: 50%;
+        margin-right: 20px;
     }
-
-    .project-1 button,
-    .project-2 button,
-    .project-3 button,
-    .project-4 button {
-        margin: 15px auto;
-    }
-}
-
-@media (max-width: 768px) {
-    img {
-        width: 100%;
-        margin-right: 0;
-        float: none;
-    }
-
-    .project-1 img,
-    .project-2 img,
-    .project-3 img,
-    .project-4 img {
-        width: 75%;
-    }
-
-    .project-1 button,
-    .project-2 button,
-    .project-3 button,
-    .project-4 button {
-        margin: 10px auto;
-    }
-}
-
-@media (max-width: 480px) {
-    img {
-        width: 100%;
-        margin-right: 0;
-        float: none;
-    }
-
-    .project-1 img,
-    .project-2 img,
-    .project-3 img,
-    .project-4 img {
-        width: 90%;
-    }
-
-    .project-1 button,
-    .project-2 button,
-    .project-3 button,
-    .project-4 button {
-        margin: 10px auto;
-    }
-
-    .project-1 p,
-    .project-2 p,
-    .project-3 p,
-    .project-4 p,
-    .project-5 p {
-        text-align: left;
+    section p, section button {
+        width: 50%;
     }
 }
