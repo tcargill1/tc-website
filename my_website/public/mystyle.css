@@ -1,4 +1,4 @@
-.navbar-nav .nav-item {
+/*.navbar-nav .nav-item {
     margin-right: 20px;
 }
 
@@ -126,202 +126,134 @@ section {
     white-space: nowrap;
     bottom: 100px;
     left: 23%;
+}*/
+
+.navbar-nav .nav-item {
+    margin-right: 2%;
 }
 
-@media (max-width: 1200px) {
-    img {
-        width: 35%;
-        margin-right: 50px;
-    }
-
-    .project-1 img {
-        right: 400px;
-        bottom: 20px;
-    }
-
-    .project-1 button {
-        right: -500px;
-        bottom: -150px;
-    }
-
-    .project-2 button {
-        right: -500px;
-        bottom: -200px;
-    }
-
-    .project-3 button {
-        right: -504px;
-        bottom: -20px;
-    }
-
-    .project-4 button {
-        right: -505px;
-        bottom: -50px;
-    }
-
-    .project-2 img {
-        right: 40px;
-        bottom: -10px;
-    }
-
-    .project-3 img {
-        right: -320px;
-        bottom: 4px;
-    }
-
-    .project-4 img {
-        right: 30%;
-        bottom: 100px;
-    }
-
-    .project-2 {
-        top: 250px;
-    }
-
-    .project-3 {
-        top: 500px;
-    }
-
-    .project-4 {
-        top: 750px;
-    }
-
-    .project-1 p {
-        left: 2%;
-        bottom: 20px;
-    }
-
-    .project-2 p {
-        left: 8%;
-        bottom: 4px;
-    }
-
-    .project-3 p {
-        left: 14%;
-        bottom: 200px;
-    }
-
-    .project-4 p {
-        bottom: 150px;
-        left: 12%;
-    }
-
-    .project-5 {
-        top: 1000px;
-    }
-
-    .project-5 p {
-        bottom: 80px;
-        left: 20%;
-    }
+h2 {
+    position: relative;
+    top: 2%;
 }
 
-@media (max-width: 768px) {
-    img {
-        width: 100%;
-        margin-right: 0;
-        float: none;
-    }
-
-    .project-1 img, .project-2 img, .project-3 img, .project-4 img {
-        position: relative;
-        right: 0;
-        bottom: 0;
-        margin: 0 auto;
-    }
-
-    .project-1 button, .project-2 button, .project-3 button, .project-4 button {
-        position: relative;
-        right: 0;
-        bottom: 0;
-        margin: 20px auto;
-        display: block;
-    }
-
-    .project-2 {
-        top: 0;
-    }
-
-    .project-3 {
-        top: 0;
-    }
-
-    .project-4 {
-        top: 0;
-    }
-
-    .project-1 p, .project-2 p, .project-3 p, .project-4 p {
-        position: relative;
-        left: 0;
-        bottom: 0;
-        margin: 10px auto;
-        white-space: normal;
-    }
-
-    .project-5 {
-        top: 0;
-    }
-
-    .project-5 p {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        margin: 10px auto;
-        white-space: normal;
-    }
+img {
+    float: right;
+    margin-right: 10%;
+    width: 25%;
+    height: auto;
 }
 
-@media (max-width: 480px) {
-    img {
-        width: 100%;
-        margin-right: 0;
-        float: none;
-    }
+a {
+    text-decoration: none;
+    color: #000;
+}
 
-    .project-1 img, .project-2 img, .project-3 img, .project-4 img {
-        position: relative;
-        right: 0;
-        bottom: 0;
-        margin: 0 auto;
-    }
+section {
+    position: relative;
+    top: 10%;
+}
 
-    .project-1 button, .project-2 button, .project-3 button, .project-4 button {
-        position: relative;
-        right: 0;
-        bottom: 0;
-        margin: 20px auto;
-        display: block;
-    }
+.project-1 img {
+    position: relative;
+    right: 50%;
+    bottom: 2%;
+}
 
-    .project-2 {
-        top: 0;
-    }
+.project-1 button {
+    position: relative;
+    right: -60%;
+    bottom: -17%;
+}
 
-    .project-3 {
-        top: 0;
-    }
+.project-2 button {
+    position: relative;
+    right: -60%;
+    bottom: -22%;
+}
 
-    .project-4 {
-        top: 0;
-    }
+.project-3 button {
+    position: relative;
+    right: -62%;
+    bottom: -2%;
+}
 
-    .project-1 p, .project-2 p, .project-3 p, .project-4 p {
-        position: relative;
-        left: 0;
-        bottom: 0;
-        margin: 10px auto;
-        white-space: normal;
-    }
+.project-4 button {
+    position: relative;
+    right: -62%;
+    bottom: -7%;
+}
 
-    .project-5 {
-        top: 0;
-    }
+.project-2 img {
+    position: relative;
+    right: 5%;
+    bottom: -1%;
+}
 
-    .project-5 p {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        margin: 10px auto;
-        white-space: normal;
-    }
+.project-3 img {
+    position: relative;
+    right: -42%;
+    bottom: 0.5%;
+}
+
+.project-4 img {
+    position: relative;
+    right: 35%;
+    bottom: 12%;
+}
+
+.project-2 {
+    position: relative;
+    top: 30%;
+}
+
+.project-3 {
+    position: relative;
+    top: 60%;
+}
+
+.project-4 {
+    position: relative;
+    top: 90%;
+}
+
+.project-1 p { 
+    position: absolute;
+    white-space: nowrap;
+    left: 0%;
+    bottom: 2%;
+}
+
+.project-2 p {
+    position: absolute;
+    white-space: nowrap;
+    left: 10%;
+    bottom: 0.5%;
+}
+
+.project-3 p {
+    position: absolute;
+    white-space: nowrap;
+    left: 16%;
+    bottom: 25%;
+}
+
+.project-4 p {
+    position: absolute;
+    white-space: nowrap;
+    bottom: 17.5%;
+    left: 15%;
+}
+
+.project-5 {
+    position: relative;
+    top: 120%;
+    white-space: nowrap;
+}
+
+.project-5 p {
+    position: absolute;
+    white-space: nowrap;
+    bottom: 10%;
+    left: 23%;
 }
