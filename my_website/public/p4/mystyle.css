@@ -14,8 +14,9 @@ h1 {
     position: relative;
     margin: 0 auto;
     max-width: 200px;
-    left: 20px;
+    left: 40px;
     top: 25px;
+    transform: translateX(-40px);
 }
 
 p {
