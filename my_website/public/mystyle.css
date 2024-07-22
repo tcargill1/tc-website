@@ -59,14 +59,16 @@ section button {
 .project-1 img,
 .project-2 img,
 .project-3 img,
-.project-4 img {
+.project-4 img,
+.project-6 img {
     max-width: 500px;
 }
 
 .project-1 button,
 .project-2 button,
 .project-3 button,
-.project-4 button {
+.project-4 button,
+.project-6 button {
     width: auto;
 }
 
