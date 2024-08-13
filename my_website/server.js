@@ -6,6 +6,7 @@ const hostname = '127.0.0.1'; // Listen on all available network interfaces
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Connects to all the other html files for the running server
 const port = process.env.PORT || 3000; 
 app.listen(port, () => {
     console.log(`Server is running on http://${hostname}:${port}/`);
