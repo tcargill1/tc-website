@@ -3,3 +3,7 @@
 https://aws.amazon.com/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/module-1/
 3. Actually host website on S3 bucket and use OAI and cloudfront for it
 4. Enable multi-factor authentication
+
+# Add project 7: book search app to portfolio that redirects to booksearchapp.com
+# Add description to front page
+# When redirected, add a new tab so the user can go back to portfolio website
