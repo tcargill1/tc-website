@@ -40,6 +40,7 @@ h1 {
     font-size: 20px;
     margin-top: 20px;
     text-align: center;
+    color: inherit;
 }
 
 section {
@@ -53,5 +54,5 @@ img {
     margin-top: 100px;
     height: auto;
     width: 700px;
-    border: 5px solid #555;
+    border: 5px solid black;
 }
