@@ -39,7 +39,6 @@ h1 {
 .book_search {
     font-size: 20px;
     margin-top: 20px;
-    background-color: #04AA6D; /* Green */
     text-align: center;
 }
 
@@ -54,5 +53,5 @@ img {
     margin-top: 100px;
     height: auto;
     width: 700px;
-    border: black;
+    border: 5px solid #555;
 }
