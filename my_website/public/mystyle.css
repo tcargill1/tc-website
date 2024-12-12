@@ -60,7 +60,8 @@ section button {
 .project-2 img,
 .project-3 img,
 .project-4 img,
-.project-6 img {
+.project-6 img,
+.project-7 img {
     max-width: 500px;
 }
 
@@ -68,7 +69,8 @@ section button {
 .project-2 button,
 .project-3 button,
 .project-4 button,
-.project-6 button {
+.project-6 button,
+.project-7 button {
     width: auto;
 }
 
@@ -114,5 +116,9 @@ section button {
 
     .project-6 {
         margin-top: 120px;
+    }
+
+    .project-7 {
+        margin-top: 140px;
     }
 }
